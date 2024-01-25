@@ -27,11 +27,17 @@ function playRockPaperScissor(player1, player2){
         console.log("Empate!")
         return "Empate!"
     }   
+    else if(player1 == "Tesoura" && player2 == "Papel"){
+        console.log("Jogador 1 venceu!")
+        return "Jogador 1 venceu!"
+    }
+    else if(player1 == "Tesoura" && player2 == "Pedra"){
+        console.log("Jogador 2 venceu!")
+        return "Jogador 2 venceu!"
+    }
     } 
     
 
-const resultado = playRockPaperScissor("Pedra", "Papel");
-console.log(resultado)
 
 
  
